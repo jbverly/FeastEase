@@ -1,0 +1,528 @@
+/* HEADER */
+.header {
+  z-index: 5;
+  background-color: white;
+  margin-right: 0px;
+  border-bottom: 3px solid #406D59;
+  padding-bottom: 20px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  height: 60px;
+}
+.FeastEase{
+  color: #3F6D59;
+  font-family: 'Inter', sans-serif;
+  font-size: 30px;
+  position: relative;
+  top: -10px;
+  left: 140px;
+}
+.Feast{
+  font-weight: 500;
+}
+.Ease{
+  font-weight: 1000;
+}
+.garis3_header {
+  z-index: 6;
+  position: relative;
+  left: 90px;
+  top: 25px;
+}
+.news_h{
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 19px;
+  color: #406D59;
+  margin: 0px;
+  position: relative;
+  z-index: 3;
+  top: -40px;
+  left: 600px;
+  border-radius: 100px;
+  border: 1.5px solid #406D59;
+  margin: 0px;
+  padding-bottom: 17px;
+  padding-top: 1px;
+  padding-left: 10px;
+  width: 63px;
+  height: 9px;
+}
+.news_h:hover{
+  color: white;
+  background-color: #406D59;
+}
+
+.About_FE{
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  color: #406D59;
+  position: relative;
+  left: 800px;
+  top: -69.5px;
+
+  border-radius: 15px;
+  border: 1.5px solid #406D59;
+  margin: 0px;
+  padding-bottom: 18px;
+  padding-top: 3px;
+  padding-left: 16px;
+  padding-right: 0px;
+
+  width: 150px;
+  height: 5px;
+  transform: translateX(-50%);
+}
+.About{
+  font-weight: 1000;
+}
+.Feast_about{
+  font-weight: 500;
+}
+.Ease_about{
+  font-weight: 1000;
+}
+.About_FE:hover{
+  color: white;
+  background-color: #406D59;
+}
+
+.login{
+  font-family: 'Inter',sans-serif;
+  font-size: 16px;
+  font-weight: 1000;
+  position: relative;
+  color: white;
+  background-color: #406D59;
+  left: 987px;
+  top: -98px;
+
+  border-radius: 15px;
+  border: 1.5px solid #406D59;
+  margin: 0px;
+  padding-bottom: 18px;
+  padding-top: 3px;
+  padding-left: 17px;
+  padding-right: 0px;
+
+  width: 60px;
+  height: 5px;
+  transform: translateX(-50%);
+}
+.login_logo{
+  position: relative;
+  transform: translateX(-50%);
+  top: -135px;
+  left: 1077px;
+}
+.login:hover{
+  background-color: white;
+  color: #406D59;
+}
+
+/* Banner Gambar dan greet */
+.welcome_greet{
+  /* animation: image-anima 61s infinite; */
+  
+  background-image: url(/Asset_main/bgmain3.svg);
+  position: absolute;
+  z-index: 1;
+  width: 1190px;
+  height: 600px;
+  margin: 0;
+  padding: 0;
+  top: 70px;
+  transform: translateZ(0);
+  /* transition: background-image 1s ease-out; */
+}
+@keyframes image-anima {/* animation is posponed due to lag */
+  0%{
+    background-image: url(/Asset_main/bgmain1.svg);
+  }
+  16.6666667%{
+    background-image: url(/Asset_main/bgmain2.svg);
+  }
+  33.3333334%{
+    background-image: url(/Asset_main/bgmain3.svg);
+  }
+  50.0000001%{
+    background-image: url(/Asset_main/bgmain4.svg);
+  }
+  66.6666668%{
+    background-image: url(/Asset_main/bgmain5.svg);
+  }
+  83.3333335%{
+    background-image: url(/Asset_main/bgmain6.svg);
+  }
+  100%{
+    background-image: url(/Asset_main/bgmain7.svg);
+  }
+}
+.FE_welcome{
+  position: absolute;
+  font-family: 'Inter',sans-serif;
+  font-size: 20px;
+  color: white;
+  width: 257px;
+  height: 51px;
+  line-height: 48px;
+  top: 140px;
+  left: 90px;
+}
+.from_kitchen{
+  position: absolute;
+  font-family: 'Inter',sans-serif;
+  font-size: 40px;
+  color: white;
+  width: 757px;
+  height: 91px;
+  top: 225px;
+  left: 92px;
+  font-weight: 900;
+  font-style: italic;
+}
+/* Banner easy way to  */
+.easywaytouse{
+  background-color: white;
+  z-index: 2;
+}
+.titleEasyway{
+  z-index: 3;
+  position: absolute;
+  top: 800px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.box1easy{
+  position: absolute;
+  z-index: 4;
+  top: 950px;
+  left: 250px;
+  transform: translateX(-50%);
+}
+.box2easy{
+  position: absolute;
+  z-index: 3;
+  top: 900px;
+  left: 610px;
+  transform: translateX(-50%);
+}
+.box3easy{
+  position: absolute;
+  z-index: 3;
+  top: 973px;
+  left: 960px;
+  transform: translateX(-50%);
+}
+.vector1{
+  position: absolute;
+  z-index: 1;
+  height: 1440px;
+  width: 1200px;
+  top: 640px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.vector2{
+  position: absolute;
+  z-index: 1;
+  height: 1500px;
+  width: 1200px;
+  top: 645px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+
+/* We Delivery  */
+.weBackground{
+  position: absolute;
+  z-index: 1;
+  height: 1500px;
+  width: 1200px;
+  top: 1156px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+.weImage{
+  position: absolute;
+  z-index: 2;
+  height: 582px;
+  width: 464px;
+  top: 1415px;
+  left: 330px;
+  transform: translateX(-50%);
+}
+.title_we_deliver{
+  font-family: 'Inter',sans-serif;
+  font-weight: 1000;
+  color: white;
+  font-size: 19px;
+  width: 582px;
+  height: 108px;
+
+  position: absolute;
+  z-index: 2;
+  top: 1500px;
+  left: 892px;
+  transform: translateX(-50%);
+}
+.content_we_deliver{
+  font-family: 'Inter',sans-serif;
+  font-weight: 5000;
+  color: white;
+  font-size: 16px;
+  text-align: justify;
+  width: 500px;
+  height: 145px;
+
+  position: absolute;
+  z-index: 2;
+  top: 1620px;
+  left: 851px;
+  transform: translateX(-50%);
+}
+.order_now{
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 20px;
+  color: white;
+  margin: 0px;
+  position: relative;
+  z-index: 3;
+  top: 1740px;
+  left: 680px;
+  border-radius: 15px;
+  border: 1.5px solid white;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  padding-left: 30px;
+
+  width: 140px;
+  height: 26px;
+  transform: translateX(-50%);
+}
+.order_now:hover{
+  border: transparent;
+  color: #8FD197;
+  background-color: white;
+}
+
+/* Why Choose us? bcz why not */
+.titleWhychoose{
+  position: absolute;
+  z-index: 2;
+  height: 65px;
+  width: 595x;
+  top: 2150px;
+  left: 625px;
+  transform: translateX(-50%);
+}
+.logoEasy{
+  position: absolute;
+  z-index: 2;
+  height: 55px;
+  width: 171x;
+  top: 2300px;
+  left: 250px;
+  transform: translateX(-50%);
+}
+.logoFresh{
+  position: absolute;
+  z-index: 2;
+  height: 64px;
+  width: 291x;
+  top: 2300px;
+  left: 620px;
+  transform: translateX(-50%);
+}
+.logoAffordable{
+  position: absolute;
+  z-index: 2;
+  height: 40px;
+  width: 275x;
+  top: 2315px;
+  left: 970px;
+  transform: translateX(-50%);
+}
+.register_button{
+  font-family: 'Inter', sans-serif;
+  font-weight: 1000;
+  font-size: 25px;
+  color: black;
+  margin: 0px;
+  position: relative;
+  z-index: 2;
+  top: 2450px;
+  left: 600px;
+  border-radius: 15px;
+  border: 1.5px solid black;
+  margin: 0px;
+  padding-bottom: 15px;
+  padding-top: 10px;
+  padding-left: 79px;
+  padding-right: -10px;
+
+  width: 230px;
+  height: 26px;
+  transform: translateX(-50%);
+}
+.register_button:hover{
+  border: white;
+  background-color: black;
+  color: white;
+}
+
+/* footer */
+.footer{
+  background-color: #F2F2F2;
+  position: absolute;
+  z-index: 1;
+  height: 290px;
+  width: 1213px;
+  top: 2750px;
+  left: 600px;
+  transform: translateX(-50%);
+}
+
+.FE_footer{
+  position: absolute;
+  top: 35px;
+  left: 213px;
+  font-family: 'Inter',sans-serif;
+  color: #406D59;
+  z-index: 2;
+  transform: translateX(-50%); 
+  font-size: 45px;
+  transform: translateX(-50%);
+  
+}
+.cinta{
+  font-weight: 1000;
+}
+.dibuat_dari{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 100px;
+  left: 256px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 500;
+  transform: translateX(-50%);
+}
+.cinta_f{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 135px;
+  left: 289.5px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 530;
+  transform: translateX(-50%);
+}
+.oleh_cinta{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 169px;
+  left: 262.5px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 500;
+  transform: translateX(-50%);
+}
+.untuk_cinta{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 203px;
+  left: 254px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 500;
+  transform: translateX(-50%);
+}
+.kantor_pusat{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 54px;
+  left: 573px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 1000;
+  transform: translateX(-50%);
+}
+.jalan_aja_dulu{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 16px;
+  top: 103px;
+  left: 600px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 600;
+  transform: translateX(-50%);
+}
+
+.partner_f{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 54px;
+  left: 783px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 1000;
+  transform: translateX(-50%);
+}
+.rubicon{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 16px;
+  top: 103px;
+  left: 830.5px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 600;
+  transform: translateX(-50%);
+}
+.gijik:hover{
+  text-decoration: underline;
+}
+.grib:hover{
+  text-decoration: underline;
+}
+.tikipidiyi:hover{
+  text-decoration: underline;
+}
+.pajak_rubicon:hover{
+  text-decoration: underline;
+}
+
+.hubungi_kami{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 25px;
+  top: 54px;
+  left: 1027.2px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 1000;
+  transform: translateX(-50%);
+}
+.kapan_kapan{
+  font-family: 'Inter',sans-serif;
+  position: absolute;
+  font-size: 16px;
+  top: 103px;
+  left: 1018.5px;
+  color: #406D59;
+  z-index: 2;
+  font-weight: 600;
+  transform: translateX(-50%);
+}
